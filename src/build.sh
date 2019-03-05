@@ -144,7 +144,7 @@ for branch in ${BRANCH_NAME//,/ }; do
     if [ "$android_version_major" -ge "8" ]; then
       vendor="lineage"
     else
-      vendor="cm"
+      vendor="lineage"
     fi
 
     if [ ! -d "vendor/$vendor" ]; then
